@@ -18,10 +18,12 @@ module.exports = {
             {text: 'React', link: '/react'},
             {text: 'Webpack', link: '/webpack'},
             {text: 'Git', link: '/git'},
-            {text: '网络', link: '/netwoek'},
+            {text: '网络', link: '/network'},
             {text: '算法', link: '/algorithm'},
         ],
-        editLink: false
+        editLink: false,
+        contributors: false,
+        lastUpdated: false
     }),
     plugins: [
         searchPlugin({}),
