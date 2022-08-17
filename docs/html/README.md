@@ -5,7 +5,7 @@
    在标准模式下，浏览器的解析规则都是按照最新的标准进行解析的。而在兼容模式下，浏览器会以向后兼容的方式来模拟老式浏览器的行为，以保证一些老的网站的正确访问。
 
    DOCTYPE 声明不存在或格式不正确会导致文档以兼容模式呈现。
-## 2. 标准模式与兼容模式各有什么区别？
+## 2. 标准模式与兼容模式有什么区别？
    在标准模式中，页面的渲染方式和 JS 引擎的解析方式都是以该浏览器支持的最高标准运行。
    
    在兼容模式中，页面以宽松的向后兼容的方式显示，模拟老式浏览器的行为以防止站点无法工作。
@@ -29,7 +29,7 @@
 ## 6. 行内元素有哪些？块级元素有哪些？二者有什么区别？⭐
    [行内元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Inline_elements)：a、b、strong、i、em、span、br、img、sub、sup、label、input、button、select、textarea
 
-   [块级元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Block-level_elements)：div、p、hr、form、ul、ol、li、table、dl、dd、dt、h1~h6、header、footer、article、aside、section
+   [块级元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Block-level_elements)：div、p、hr、form、ul、ol、li、table、dl、dd、dt、h1~h6、header、main、footer、article、aside、section、nav
 
 行内元素与块级元素的区别：
 
